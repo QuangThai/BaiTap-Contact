@@ -3,5 +3,5 @@
 	$ma = $_GET['ma'];
 	$q = "DELETE FROM `contactdata` WHERE ma=$ma " ;
 	mysqli_query($con,$q);
-	header('location:index.php');
+	header('location:contact.php');
  ?>

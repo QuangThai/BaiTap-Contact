@@ -12,7 +12,7 @@
 
 		if($result) 
 		{
-			header('location:index.php');
+			header('location:contact.php');
 		}
 		else 
 		{
@@ -21,6 +21,6 @@
 	} 
 	else 
 	{
-		header('location:index.php') ;
+		header('location:contact.php') ;
 	}
  ?>

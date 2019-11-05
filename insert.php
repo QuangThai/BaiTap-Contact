@@ -9,7 +9,7 @@ if(isset($_POST['done'])) {
 	VALUES ('$name','$phone','$email')";
 	$result = mysqli_query($con,$query);
 
-	header('location:index.php');
+	header('location:contact.php');
 }
 ?>
 
