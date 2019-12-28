@@ -42,7 +42,7 @@ if(isset($_POST['done'])) {
 				<div class="form-group">
 					<label class="control-label" >Email</label>
 					<div class="">
-						<input type="text" class="form-control" name="email" placeholder="Email">
+						<input type="email" class="form-control" name="email" placeholder="Email">
 					</div>
 				</div>
 				<div class="form-group">
