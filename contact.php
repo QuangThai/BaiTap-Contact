@@ -48,8 +48,9 @@ $start = ($current_page - 1) * $limit;
 		i.fas {
 			font-size: 13px;
 		}
-		th , tr {
+		th ,td, tr {
 			text-align: center;
+			vertical-align:  middle !important;
 		}
 		.cbr-pagination ul {
 			margin: 0;
